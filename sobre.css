@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+  
+    height: 200px;
+    width: 380px;
+    padding-left: 50px;
+    padding-right: 50px;
+     justify-content:center;
+   
+}
+
+.links{
+    text-align: center;
+    
+
+}
+
+nav li {
+   
+    display: inline;
+   gap: 50px;
+}
+
+
+header{
+     background-color: rgb(255, 255, 255);
+     text-align: center;
+     border: 0px;
+     background: rgb(255,255,255);
+     background: linear-gradient(48deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+
+
+     
+} 
+
+.button {
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
+    font-weight: 700;
+    transition: 0.6s;
+  
+   
+  }
+  
+  .button:active {
+    scale: 0.92;
+  }
+  
+  .button:hover {
+    background: rgba(255, 254, 254, 0.892);
+    background: linear-gradient(270deg, rgba(250, 249, 248, 0.681) 0%, rgba(233, 238, 238, 0.873) 50%);
+    color: rgb(4, 4, 38);
+  }
+
+.texto{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.inrainbows{
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.texto2{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    font-style: oblique;
+    padding-left: 20px;
+}
+
+.caixa{
+    display: flex;
+}
+
+.botaoimg{
+    display: flex;
+   justify-content: center;
+   
+   
+}
+  .texto4{
+     color: rgb(0, 0, 0);
+     font-style: oblique;
+  }
+
+
+
+
